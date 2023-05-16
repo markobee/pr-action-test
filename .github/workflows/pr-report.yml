@@ -8,17 +8,16 @@ on:
 permissions:
   actions: read
   checks: read
-  contents: read
-  deployments: read
+  # contents: read
+  # deployments: read
   issues: write
   discussions: read
-  packages: read
-  pages: read
+  # packages: read
+  # pages: read
   pull-requests: write
   repository-projects: read
-  security-events: read
+  # security-events: read
   statuses: read
-
 jobs:
   add-pr-report-as-comment:
     runs-on: ubuntu-latest
