@@ -5,10 +5,7 @@ on:
     # only run when PR is closed
     types: [closed]
 
-# permissions:
-#   contents: write
-#   pull-requests: write
-#   repository-projects: read
+permissions: write-all | read-all
 
 jobs:
   add-pr-report-as-comment:
