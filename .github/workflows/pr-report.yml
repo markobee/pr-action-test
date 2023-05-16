@@ -5,7 +5,20 @@ on:
     # only run when PR is closed
     types: [closed]
 
-permissions: read-all|write-all
+permissions: read-all
+  actions: read
+  checks: read
+  contents: read
+  deployments: read
+  id-token: read
+  issues: write
+  discussions: read
+  packages: read
+  pages: read
+  pull-requests: write
+  repository-projects: read
+  security-events: read
+  statuses: read
 
 jobs:
   add-pr-report-as-comment:
