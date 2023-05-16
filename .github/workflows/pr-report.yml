@@ -5,7 +5,7 @@ on:
     # only run when PR is closed
     types: [closed]
 
-permissions: read-all
+permissions:
   actions: read
   checks: read
   contents: read
