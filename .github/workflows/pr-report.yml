@@ -11,7 +11,7 @@ permissions:
   # contents: read
   # deployments: read
   issues: write
-  discussions: read
+  #discussions: read
   # packages: read
   # pages: read
   pull-requests: write
