@@ -6,18 +6,10 @@ on:
     types: [closed]
 
 permissions:
-#  actions: read
   checks: read
-  # contents: read
-  # deployments: read
-  issues: read
-  #discussions: read
-  # packages: read
-  # pages: read
   pull-requests: write
   repository-projects: read
-  # security-events: read
-  # statuses: read
+
 jobs:
   add-pr-report-as-comment:
     runs-on: ubuntu-latest
