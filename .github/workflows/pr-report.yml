@@ -10,14 +10,14 @@ permissions:
   checks: read
   # contents: read
   # deployments: read
-  issues: write
+  issues: read
   #discussions: read
   # packages: read
   # pages: read
   pull-requests: write
   repository-projects: read
   # security-events: read
-  statuses: read
+  # statuses: read
 jobs:
   add-pr-report-as-comment:
     runs-on: ubuntu-latest
