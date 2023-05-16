@@ -5,7 +5,7 @@ on:
     # only run when PR is closed
     types: [closed]
 
-permissions: write-all|read-all
+permissions: read-all|write-all
 
 jobs:
   add-pr-report-as-comment:
